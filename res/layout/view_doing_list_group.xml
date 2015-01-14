@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textView_group_title"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:paddingLeft="30dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterActivity" >
+
+    <EditText
+        android:id="@+id/editText_register_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/login_input_user_name" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_register_userName"
+        android:layout_below="@+id/editText_register_userName"
+        android:ems="10"
+        android:hint="@string/register_input_user_email"
+        android:inputType="textEmailAddress" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_register_userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_register_email"
+        android:layout_below="@+id/editText_register_email"
+        android:ems="10"
+        android:hint="@string/login_input_user_password"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_register_userPassword_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_register_userPassword"
+        android:layout_below="@+id/editText_register_userPassword"
+        android:ems="10"
+        android:hint="@string/register_input_user_password_again"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <Button
+        android:id="@+id/button_i_need_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_register_userPassword_again"
+        android:layout_below="@+id/editText_register_userPassword_again"
+        android:text="@string/login_button_register" />
+
+</RelativeLayout>

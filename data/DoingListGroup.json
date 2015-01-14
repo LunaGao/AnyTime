@@ -1,0 +1,5 @@
+{ "results": [
+
+  {"objectId":"53088f55e4b01ec7d09138ab","ACL":{"*":{"read":true}},"GroupName":"生活","Index":1,"createdAt":"2014-02-22T19:51:49.990Z","updatedAt":"2014-02-22T19:54:02.159Z"},
+  {"objectId":"53088fa4e4b01ec7d091394e","ACL":{"*":{"read":true}},"GroupName":"休闲","Index":3,"createdAt":"2014-02-22T19:53:08.281Z","updatedAt":"2014-02-22T19:54:05.603Z"},
+  {"objectId":"53088fabe4b01ec7d091395c","ACL":{"*":{"read":true}},"GroupName":"工作","Index":2,"createdAt":"2014-02-22T19:53:15.485Z","updatedAt":"2014-02-22T20:25:23.768Z"}] }
