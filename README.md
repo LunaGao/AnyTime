@@ -1,6 +1,8 @@
 # Anytime介绍
 
-这是我们从开发者征集到的一个应用，演示了：
+![img](https://raw.githubusercontent.com/lzwjava/plan/master/anytime360.png)
+
+这是从开发者征集到的一个应用，演示了：
 
 * 用户注册、登陆、登出和忘记密码等用户系统相关的功能。
 * 相对复杂一些的数据增删改查操作。
@@ -9,6 +11,15 @@
 项目开发记录和介绍在这里
 
 http://www.cnblogs.com/maomishen/p/3577480.html
+
+将学会
+
+* 配置消息推送
+* AVQuery
+* 邮箱验证重设密码
+* 用户登录注册
+* 调用云函数
+* 创建 AVObject
 
 # 如何运行
 
