@@ -1,4 +1,7 @@
 # Anytime介绍
+[![Bless](https://cdn.rawgit.com/LunaGao/BlessYourCodeTag/master/tags/god.svg)](http://lunagao.github.io/BlessYourCodeTag/)
+
+# 效果图&说明
 
 ![img](https://raw.githubusercontent.com/lzwjava/plan/master/anytime360.png)
 
